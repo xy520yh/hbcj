@@ -1,0 +1,84 @@
+<!DOCTYPE html>    
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="keywords" content=""/>
+<meta name="higame-image" content="img/icon1.png"/>
+<meta name="description" content="">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<title>仙剑奇侠传移动版</title>
+<meta name="keywords" content="仙剑奇侠传移动版">
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<script type="text/javascript" src="js/jq_183.js"></script>
+<script type="text/javascript" src="js/swiper-3.4.2.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script text="type/javascript" src="js/input.js"></script>   
+</head>
+<body>
+
+	<!-- 头图 -->
+	<div class="header">
+		
+        <div class="slo animated zoomIn">
+        </div>
+        <div class="login" id="login">欢迎您，请 <a href="#">登录</a></div>
+		<div class="clearfix header-info-wrap">
+			<!-- 游戏图标 -->
+			<a href="#" target="_blank"><img src="img/phone_btn_09.png" class="phone_ling" /></a>
+		</div>
+	</div>
+	<!-- 角色介绍 -->
+	<!--弹出轮播图-->
+	<div class="bg" id="bg"></div>
+    <div class="openbox" id="mp_play">
+        <div class="closebtn" id="closebtn"></div>
+        <div class="play_sp" >
+        	<div class="ma_download1">
+                <lable  class="one"><span class='input_style radio_bg'><input type="radio" name="hot" value="and"><strong>安卓</strong></span></lable>
+				<lable  class="one"><span class='input_style radio_bg'><input type="radio" name="hot" value="ios"  checked="checked"><strong>IOS</strong></span></lable>
+            </div>
+       		 <div class="input1" >
+                <P class="input_one">
+                	<select>
+							  <option value ="volvo">Volvo</option>
+							  <option value ="saab">Saab</option>
+							  <option value="opel">Opel</option>
+							  <option value="audi">Audi</option>
+							</select>
+                	
+                </P>
+                <P ><input name="" type="text"  class="text_content2" value=""/></P>
+            </div>
+             <div class="login_btn"><a href="#"></a></div>
+              <div class="login_btn1"><a href="#"></a></div>
+        </div>
+    </div>
+    
+    <div class="openbox1" id="mp_play1">
+        <div class="closebtn" id="closebtn1"></div>
+        <div class="play_sp1" >
+        	<h3>获奖记录</h3>
+			<p class="wb">恭喜您获得:<br/><span>圣灵披风(3日) 006210067WXK7E</span></p>
+<p>【活动规则】</p>
+<p>1.活动时间：2020年3月26日-2020年4月23日</p>
+<p>2.每人仅有1次获奖机会</p>
+<p>3.虚拟奖励领取方式：主界面“设置”-“兑换礼包”按钮  -输入礼包码-点击  “确认”，即可兑换获得礼包奖励  ；</p>
+<p>4.现金奖励领取方式：现金发放有延迟，中奖后24小时内，由昆仑游戏中心发放现金红包，请注意查收。</P>
+       		 
+        </div>
+    </div>
+<script>
+$('input').on('blur', function () {
+          setTimeout(function(){
+            var scrollHeight = document.documentElement.scrollTop || document.body.scrollTop || 0;
+            window.scrollTo(0, Math.max(scrollHeight - 1, 0));
+          }, 100);
+});	
+</script>
+</body>
+</html>
